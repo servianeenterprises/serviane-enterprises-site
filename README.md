@@ -18,4 +18,4 @@ Upload the contents of this folder to the root of a GitHub repository. In the re
 
 ## Contact behavior
 
-The contact buttons use the visitor's email application. Messages are addressed to `servianeenterprises@gmail.com` with `paulhollar@servianeenterprises.org` copied. No customer information is stored by the website.
+The contact buttons use the visitor's email application. Messages are addressed to `servianeenterprises@gmail.com` with `paulhollar@servianeenterprises.org` copied. The site has no inquiry form, user account, online payment, analytics or advertising-cookie functionality.
