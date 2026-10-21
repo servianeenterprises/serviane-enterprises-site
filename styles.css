@@ -33,9 +33,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav-shell { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 13px; font-weight: 900; letter-spacing: .13em; white-space: nowrap; }
 .brand b { color: var(--gold); }
-.brand-mark { width: 30px; flex: 0 0 30px; }
-.brand-mark svg path:first-child { fill: var(--gold); }
-.brand-mark svg path:last-child { fill: var(--navy); }
+.brand-mark { width: 76px; flex: 0 0 76px; }
+.brand-mark img { width: 100%; height: auto; object-fit: contain; }
 .site-nav { display: flex; align-items: center; gap: 32px; }
 .site-nav a { position: relative; padding: 9px 0; font-size: 12px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
 .site-nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 3px; height: 2px; background: var(--gold); transition: right .25s ease; }
@@ -73,8 +72,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .orbit-mid::before, .orbit-mid::after { content: ""; position: absolute; width: 9px; height: 9px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 18px rgba(243,189,43,.8); }
 .orbit-mid::before { left: 5%; top: 28%; }.orbit-mid::after { right: 8%; bottom: 23%; }
 .orbit-inner { inset: 31%; border: 1px solid rgba(243,189,43,.24); }
-.hero-shield { width: 39%; position: relative; z-index: 2; filter: drop-shadow(0 30px 40px rgba(0,0,0,.4)); animation: float 4.5s ease-in-out infinite; }
-.shield-body { fill: var(--gold); }.shield-check { fill: var(--navy); }
+.hero-logo { width: 78%; max-width: 470px; height: auto; position: relative; z-index: 2; object-fit: contain; filter: drop-shadow(0 30px 40px rgba(0,0,0,.4)); animation: float 4.5s ease-in-out infinite; }
 .orbit-label { position: absolute; color: rgba(255,255,255,.6); font-size: 9px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
 .orbit-label-top { top: 0; left: 50%; transform: translateX(-50%); }.orbit-label-right { right: -6px; top: 51%; transform: rotate(90deg); }.orbit-label-bottom { bottom: 1%; left: 50%; transform: translateX(-50%); }
 .scroll-cue { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 2; display: grid; justify-items: center; gap: 8px; color: rgba(255,255,255,.55); font-size: 9px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
@@ -166,7 +164,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .principles, .detail-grid, .difference-list { grid-template-columns: 1fr; }.principle-card h3 { margin-top: 28px; }.team-frame { padding: 8px; }.frame-scan { left: 8px; right: 8px; }
   .service-grid { grid-template-columns: 1fr; }.service-card { min-height: 260px; }
   .stats { grid-template-columns: 1fr 1fr; }.training-flow { grid-template-columns: 1fr; gap: 1px; }.training-flow > i { width: auto; height: 32px; transform: rotate(90deg); }.standards { grid-template-columns: 1fr; gap: 24px; }.standards ul { grid-template-columns: 1fr; }
-  .contact-card { padding: 28px 22px; word-break: break-word; }.brand { font-size: 11px; letter-spacing: .1em; }.brand-mark { width: 26px; flex-basis: 26px; }
+  .contact-card { padding: 28px 22px; word-break: break-word; }.brand { gap: 8px; font-size: 10px; letter-spacing: .08em; }.brand-mark { width: 58px; flex-basis: 58px; }
 }
 
 @media (max-width: 460px) {
